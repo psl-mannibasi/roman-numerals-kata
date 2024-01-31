@@ -21,7 +21,7 @@ public class RomanNumeralGeneratorTests{
         "1001,MI",
         "2019,MMXIX",
     })
-    public void should_return_i_for_1(final int number, final String numeral) {
+    public void should_return_Numeral_for_Character(final int number, final String numeral) {
         assertEquals(numeral, new RomanNumeralConverter().convert(number));
     }
 
