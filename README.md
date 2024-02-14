@@ -104,3 +104,12 @@ Here, amount represents the Arabic number and the value this method returns is t
 - Try not to refactor in the red. If you write a failing test that would need a big rewrite to pass, consider removing the test, refactoring in the green, and then writing the test again.
 - As you progress through the problem, you should see your algorithm start to evolve. In other words, as the tests get more specific, the code gets more generic.
 - Don't be afraid to let the code get a little bit messy - sometimes that's the best way to spot the next refactoring step.
+
+#### Potential ordering for initial test cases:
+1. `assertEquals("i", new RomanNumeralConverter().convert(1));`
+2. `assertEquals("ii", new RomanNumeralConverter().convert(2));`
+3. `assertEquals("iii", new RomanNumeralConverter().convert(3));`
+4. `assertEquals("v", new RomanNumeralConverter().convert(5));`
+5. `assertEquals("vii", new RomanNumeralConverter().convert(7));`
+6. `assertEquals("x", new RomanNumeralConverter().convert(10));`
+7. `assertEquals("xviii", new RomanNumeralConverter().convert(18));`
